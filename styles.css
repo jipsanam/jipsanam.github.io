@@ -1,0 +1,421 @@
+
+:root{--ink:#19352e;--forest:#195b45;--deep:#123e32;--mint:#e7f1e9;--cream:#f7f7f2;--sand:#f4ebdf;--line:#dce6dd;--muted:#536a60;--shadow:0 18px 50px rgba(21,59,45,.075)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.68;word-break:keep-all;overflow-wrap:break-word}a{text-decoration:none;color:inherit}img{display:block;max-width:100%}.container{width:min(1150px,calc(100% - 28px));margin:0 auto}.header{position:sticky;top:0;z-index:15;border-bottom:1px solid var(--line);background:rgba(255,255,255,.96);backdrop-filter:blur(16px)}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:76px}.identity{display:flex;gap:12px;align-items:center}.brand{font-size:29px;font-weight:900;letter-spacing:-.07em}.phone{font-size:clamp(17px,1.9vw,25px);font-weight:900;color:var(--forest);white-space:nowrap}.nav{display:flex;gap:8px}.nav a{font-size:14px;border:1px solid var(--line);background:#fff;padding:9px 15px;border-radius:999px;font-weight:700}.nav a:hover{background:var(--mint)}.section{padding:36px 0}.hero{padding-top:42px}.panel{border:1px solid var(--line);background:#fff;border-radius:28px;box-shadow:var(--shadow);padding:clamp(24px,4vw,54px)}.hero-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:28px}.center{text-align:center}.tag{display:inline-block;background:var(--mint);border-radius:99px;padding:7px 15px;font-weight:800;color:var(--forest);font-size:13px;letter-spacing:.025em}.h1{font-size:clamp(30px,4.9vw,57px);line-height:1.28;margin:18px 0}.h2{font-size:clamp(26px,3.1vw,40px);line-height:1.35;margin:12px 0 16px;letter-spacing:-.045em}.h3{font-size:clamp(19px,2vw,25px);line-height:1.4;margin:0 0 10px}.lead{font-size:clamp(16px,1.8vw,19px);color:#496056;max-width:760px;margin:0 auto}.note{font-size:14px;color:#657b6f}.buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:24px}.button{display:inline-flex;justify-content:center;align-items:center;text-align:center;background:var(--forest);color:#fff;border:1px solid var(--forest);padding:14px 22px;border-radius:999px;font-weight:850;min-height:50px}.button.alt{background:#fff;color:var(--forest)}.hero-photo{border-radius:22px;border:1px solid var(--line);background:#e8efe7;padding:16px;overflow:hidden}.hero-photo img{width:100%;height:auto;object-fit:contain;border-radius:14px}.highlights{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:18px auto}.highlights span{background:var(--mint);border-radius:99px;padding:7px 12px;font-size:13px;font-weight:700}.section-head{text-align:center;margin:0 auto 24px;max-width:860px}.section-head p{color:var(--muted);margin:0}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.feature{background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden}.feature-photo{display:grid;grid-template-columns:1fr 1fr;gap:9px;padding:12px;background:#f4f7f3}.feature-photo figure{margin:0}.feature-photo img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px}.feature-photo figcaption{text-align:center;color:var(--muted);font-size:13px;padding:6px}.feature-body{padding:23px}.feature-body p{color:var(--muted);margin:0}.feature-body ul{padding-left:20px;margin:14px 0 0}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.service{display:grid;grid-template-columns:112px 1fr;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:22px;padding:15px;min-width:0}.service img{width:112px;height:104px;object-fit:cover;border-radius:15px}.service b{font-size:21px;color:var(--deep)}.service p{margin:4px 0 3px;font-size:14px;color:var(--muted)}.service small{color:#667f70;font-size:13px}.service:hover{border-color:#8ebaa4;box-shadow:var(--shadow)}.soft{background:var(--mint)}.sand{background:var(--sand)}.info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.info{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}.info p{margin:0;color:var(--muted)}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery figure{margin:0;border:1px solid var(--line);border-radius:20px;background:#fff;padding:11px}.gallery img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#f1f3ed;border-radius:14px}.gallery figcaption{font-size:14px;color:var(--muted);margin-top:9px;text-align:center}.gallery strong{display:block;color:var(--deep);font-size:16px}.step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.steps{padding:20px;background:#fff;border:1px solid var(--line);border-radius:20px}.steps b{display:block;color:var(--forest)}.steps p{color:var(--muted);margin:6px 0 0}.qa{display:grid;grid-template-columns:1fr 1fr;gap:14px}.qa article{background:#fff;border:1px solid var(--line);padding:20px;border-radius:18px}.qa b{font-size:17px}.qa p{margin:8px 0 0;color:var(--muted)}.footer-cta{background:var(--deep);color:#fff;padding:36px;border-radius:26px;text-align:center}.footer-cta p{color:#dcece2}.footer-cta .button{background:#fff;color:var(--deep);border-color:#fff}.footer-cta .button.alt{background:transparent;color:#fff}.footer{padding:20px 0 110px;text-align:center;color:var(--muted);font-size:14px}.sticky-actions{display:none;position:fixed;z-index:20;left:0;right:0;bottom:0;background:rgba(255,255,255,.98);border-top:1px solid var(--line);padding:10px max(10px,env(safe-area-inset-left)) calc(10px + env(safe-area-inset-bottom));gap:10px}.sticky-actions a{flex:1}.only-intro{display:block}.service-summary{text-align:center}.related{margin-top:20px}a:focus-visible{outline:3px solid #1f8964;outline-offset:3px}
+@media(max-width:920px){.hero-grid,.split{grid-template-columns:1fr}.hero-photo{max-width:620px;margin:0 auto}.nav a{padding:8px 11px}.step-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.header-inner{min-height:0;display:grid;grid-template-columns:1fr;gap:8px;padding:9px 0}.identity{justify-content:space-between}.brand{font-size:24px}.phone{font-size:clamp(17px,4.9vw,22px)}.nav{justify-content:center}.nav a{flex:1;text-align:center;font-size:13px;white-space:nowrap}.section{padding:20px 0}.hero{padding-top:18px}.panel{border-radius:22px;padding:22px 17px}.cards,.info-grid,.qa,.gallery,.step-grid{grid-template-columns:1fr}.service{grid-template-columns:92px 1fr;gap:12px;padding:12px}.service img{width:92px;height:94px}.service b{font-size:19px}.service p{font-size:13px}.service small{font-size:12px}.gallery figure img{aspect-ratio:4/3}.feature-photo img{aspect-ratio:4/3}.sticky-actions{display:flex}.footer{padding-bottom:110px}.h1{font-size:clamp(29px,7.5vw,37px)}}
+@media(max-width:345px){.brand{font-size:22px}.phone{font-size:17px}.nav a{font-size:12px;padding:8px 6px}.button{padding:12px 14px}.service{grid-template-columns:80px 1fr}.service img{width:80px;height:86px}}
+\n
+/* STAGE9 bolt-on: richer guide and responsive layout */
+.method-grid,.site-grid,.faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.method,.site-grid article,.faq-grid article{border:1px solid #dbe5da;border-radius:20px;padding:24px;background:#fff}
+.method-no{font-size:14px;letter-spacing:.18em;font-weight:900;color:#2a795d}
+.method h3,.site-grid h3,.faq-grid h3{font-size:clamp(19px,2.4vw,23px);color:#164936;line-height:1.4;word-break:keep-all;margin:8px 0}
+.method p,.site-grid p,.faq-grid p{line-height:1.85;word-break:keep-all;color:#435b4b;margin:0}
+.method-note{color:#64766b;font-size:14px;text-align:center}
+.chain-feature{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;background:#eff5ea;border:1px solid #d9e5d5;border-radius:28px;padding:clamp(24px,4vw,44px);align-items:center}
+.chain-copy{text-align:center}.chain-copy p{font-size:16px;line-height:1.9;color:#3d5e4c;word-break:keep-all}
+.chain-tags{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:18px}
+.chain-tags span{padding:8px 12px;border:1px solid #b9d5c4;background:white;border-radius:30px;font-size:13px;font-weight:700}
+.chain-visual img{display:block;width:100%;height:auto;object-fit:contain;border-radius:20px;background:#fff}
+.chain-visual p{text-align:center;font-size:12px;line-height:1.6;color:#637c69}
+.h1,.h2,.h3,.lead{word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+.gallery img{height:auto;aspect-ratio:auto;object-fit:contain;background:#f5f8f4}
+@media(max-width:760px){.method-grid,.site-grid,.faq-grid,.chain-feature{grid-template-columns:minmax(0,1fr)}.method,.site-grid article,.faq-grid article{padding:19px}.chain-feature{padding:22px}.chain-copy p{font-size:15px}}
+@media(max-width:350px){.phone{font-size:clamp(15px,4.5vw,19px)}.header-inner{min-width:0}.identity{min-width:0}}
+
+
+/* STAGE10 balanced homepage - phone and desktop */
+html{scroll-padding-top:92px}
+.h1,.h2,.h3,.service b,.service p,.strength h3,.strength p,.showcase h3,.showcase p{word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+.hero .h1{max-width:18ch;margin:18px auto;font-size:clamp(28px,4.4vw,49px)}
+.strength-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.strength{background:#fff;border:1px solid var(--line);border-radius:23px;padding:clamp(20px,2.8vw,30px);text-align:center;min-width:0}
+.strength-no{font-size:14px;color:var(--forest);letter-spacing:.14em;font-weight:900}.strength h3{margin:9px 0;font-size:clamp(19px,2.1vw,24px);line-height:1.4}.strength p{color:var(--muted);margin:0;font-size:15px;line-height:1.85}
+.showcase-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.showcase{min-width:0;background:#fff;border:1px solid var(--line);border-radius:24px;padding:20px;text-align:center}
+.showcase h3{font-size:21px;line-height:1.4;margin:0 0 7px}.showcase>p{color:var(--muted);margin:0 0 17px;font-size:14px;min-height:44px}
+.photo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.photo-pair figure{min-width:0;margin:0;border-radius:13px;overflow:hidden;background:#edf2ed}
+.photo-pair img{display:block;width:100%;height:clamp(124px,13vw,180px);object-fit:contain;background:#f1f4ee}.photo-pair figcaption{font-size:13px;font-weight:800;padding:7px;background:#e8f1e9}
+.minor-link{display:inline-block;color:var(--forest);font-weight:800;margin-top:15px;border-bottom:1px solid currentColor}
+.cards .service{min-width:0;text-align:center}.cards .service img{object-fit:contain;background:#eaf0e8}.cards .service > span{display:block}.cards .service b{font-size:clamp(19px,2vw,24px)}
+@media(max-width:850px){.strength-grid,.showcase-grid{grid-template-columns:minmax(0,1fr)}.showcase>p{min-height:0}.showcase{max-width:640px;width:100%;margin:0 auto}.photo-pair img{height:clamp(145px,34vw,245px)}}
+@media(max-width:600px){.hero .h1{max-width:17ch;font-size:clamp(27px,7.4vw,35px)}.strength{padding:23px 20px}.showcase{padding:17px}.showcase h3{font-size:20px}}
+@media(max-width:350px){.photo-pair img{height:130px}.header-inner{gap:5px}.identity{gap:5px}.phone{font-size:15px}}
+
+
+/* STAGE11: 10 representative service photos large enough to identify, no cropping */
+#services .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+#services .cards .service{display:flex;flex-direction:column;align-items:stretch;text-align:center;gap:0;padding:17px;overflow:hidden;border-radius:24px;transition:box-shadow .2s ease,border-color .2s ease}
+#services .cards .service img{display:block;width:100%;height:clamp(240px,24vw,310px);object-fit:contain;object-position:center;background:#edf2eb;border-radius:17px;padding:8px}
+#services .cards .service > span{display:block;min-width:0;padding:18px 8px 9px}
+#services .cards .service b{display:block;font-size:clamp(22px,2.2vw,26px);line-height:1.45}
+#services .cards .service p{font-size:15px;line-height:1.8;margin:9px auto 7px;max-width:46ch;color:var(--muted)}
+#services .cards .service small{font-size:13px;line-height:1.7;display:block;word-break:keep-all;overflow-wrap:break-word}
+@media(max-width:700px){
+ #services .cards{grid-template-columns:minmax(0,1fr);gap:18px}
+ #services .cards .service{padding:13px;border-radius:21px}
+ #services .cards .service img{height:clamp(225px,62vw,340px);padding:7px}
+ #services .cards .service > span{padding:16px 7px 9px}
+ #services .cards .service b{font-size:23px}
+ #services .cards .service p{font-size:14px}
+}
+@media(max-width:360px){#services .cards .service img{height:225px}#services .cards .service > span{padding:14px 5px 7px}}
+
+/* STAGE12: readable customer-first service descriptions */
+.cards .service p {line-height:1.85;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty;margin-top:12px}
+.cards .service small {line-height:1.65;word-break:keep-all;overflow-wrap:break-word}
+.cards .service b {line-height:1.45;word-break:keep-all}
+@media(max-width:760px){.cards .service p{font-size:15px;line-height:1.8}}
+
+/* STAGE14: concise service overview without sacrificing readable imagery */
+#services .cards .service p{font-size:15px;line-height:1.7;max-width:42ch;margin:10px auto 12px;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+#services .cards .service small{display:inline-block;background:#edf4ee;border-radius:999px;padding:7px 14px;color:#195b45;font-size:13px;font-weight:800;line-height:1.45}
+#services .cards .service > span{padding-bottom:13px}
+@media(max-width:640px){#services .cards .service img{height:clamp(205px,58vw,270px)}#services .cards .service p{font-size:14px;line-height:1.65;margin:8px auto 10px}#services .cards .service > span{padding:12px 5px 10px}#services .cards .service b{font-size:21px}}
+
+/* STAGE15 preview: clear clickable cards and same-region links */
+.nav-hint{text-align:center;margin:12px auto 22px;color:#315d49;word-break:keep-all}.nav-hint strong{color:#195b45}
+.cards .service{cursor:pointer;transition:transform .17s,box-shadow .17s}.cards .service:hover,.mini-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px #133c3222}.cards .service:focus-visible,.mini-card:focus-visible{outline:3px solid #418b6b;outline-offset:3px}
+.cards .service small{display:block;color:#14654b;text-decoration:underline;text-underline-offset:4px;font-weight:800}
+.hub-image{width:min(100%,690px);margin:28px auto 14px;border:1px solid #dce6dd;border-radius:22px;background:#f6f8f4;padding:12px}.hub-image img{width:100%;height:auto;object-fit:contain;max-height:420px;margin:auto;border-radius:14px}
+.hub-copy{max-width:800px;margin:16px auto;line-height:1.88;word-break:keep-all;overflow-wrap:break-word;color:#41594e}
+.mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:24px;text-align:left}
+.mini-card{background:#f7faf5;border:1px solid #dce6dd;border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:6px;transition:transform .17s,box-shadow .17s}
+.mini-card b{font-size:18px;color:#19352e}.mini-card span{font-size:14px;font-weight:750;color:#14654b;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:650px){.mini-grid{grid-template-columns:1fr}.mini-card{padding:15px}.hub-image{margin:20px auto}.hub-copy{font-size:15px}.nav-hint{padding:0 6px}}
+
+/* STAGE16 hub & region landing composition */
+.pro-hero{width:min(100%,780px);margin:26px auto 18px;border-radius:22px;background:#f8faf6;border:1px solid #dde7db;padding:16px}.pro-hero img{display:block;width:100%;max-height:470px;object-fit:contain;height:auto;border-radius:14px}
+.intro-text{font-size:16px;color:#40594b;max-width:830px;line-height:1.92;word-break:keep-all;overflow-wrap:break-word;margin:18px auto 25px}
+.section-lead{font-size:16px;color:#506b5b;line-height:1.83;word-break:keep-all;text-align:center;max-width:770px;margin:14px auto 25px}
+.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:28px}
+.detail-card{border:1px solid #dce7dc;border-radius:18px;background:#f9fbf8;padding:25px;text-align:center}
+.detail-card h3{font-size:clamp(19px,2.4vw,22px);line-height:1.45;color:#20543f;margin:0 0 13px;word-break:keep-all}
+.detail-card p{margin:0;font-size:15px;line-height:1.85;color:#466353;word-break:keep-all;overflow-wrap:break-word}
+.single-photo{max-width:620px;margin:20px auto}.single-photo img{width:100%;height:auto;max-height:350px;object-fit:contain;border-radius:18px}
+.steps-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:23px auto;max-width:850px}
+.steps-grid>div{border-radius:18px;background:#f5f9f3;border:1px solid #dce5d9;padding:24px 12px}.steps-grid strong{color:#267755;letter-spacing:.15em}.steps-grid p{line-height:1.6;word-break:keep-all}
+.faq-wrap{max-width:840px;margin:26px auto}.faq{border-bottom:1px solid #d8e5da;padding:0 6px}.faq summary{padding:19px 5px;font-size:17px;font-weight:750;color:#235540;cursor:pointer;line-height:1.55;word-break:keep-all}.faq p{font-size:15px;color:#4b6757;line-height:1.84;padding:0 8px 18px;margin:0;word-break:keep-all}
+.region-main{display:flex;justify-content:space-between;align-items:center;gap:20px;border-radius:18px;background:#1c674c;color:#fff;padding:22px 27px;max-width:830px;margin:20px auto 30px;font-weight:800;font-size:18px;text-decoration:none;word-break:keep-all}
+.region-main b{font-size:24px}.link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:25px auto;max-width:1000px}
+.nav-card{display:grid;grid-template-columns:130px 1fr;grid-template-rows:auto auto;align-items:center;column-gap:17px;row-gap:5px;border:1px solid #dce5d9;border-radius:18px;padding:14px;background:#fbfcfa;color:#244d3a;text-decoration:none;min-width:0}
+.nav-card img{grid-row:span 2;width:130px;height:100px;object-fit:contain;border-radius:12px;background:#f2f7f0}.nav-card b{font-size:18px;word-break:keep-all}.nav-card span{font-size:13px;color:#1c7151;text-decoration:underline;text-underline-offset:4px;font-weight:700;word-break:keep-all}
+.nav-card:hover,.region-main:hover{filter:brightness(.96);box-shadow:0 6px 24px #173f2822}.nav-card:focus-visible,.region-main:focus-visible{outline:3px solid #408768;outline-offset:3px}
+.h1,.h2,.h3,.lead{word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+@media(max-width:760px){.detail-grid,.link-grid{grid-template-columns:1fr}.steps-grid{grid-template-columns:1fr}.steps-grid>div{padding:14px 10px}.pro-hero{padding:10px}.detail-card{padding:20px}.intro-text{font-size:15px}.section-lead{font-size:15px}.nav-card{grid-template-columns:110px 1fr}.nav-card img{width:110px;height:90px}.region-main{font-size:16px;padding:19px}}
+@media(max-width:360px){.nav-card{grid-template-columns:88px 1fr;padding:10px;column-gap:11px}.nav-card img{width:88px;height:80px}.nav-card b{font-size:16px}.nav-card span{font-size:12px}.detail-card h3{font-size:18px}}
+
+/* STAGE17: current service card distinction */
+.current-service{border-color:#9ebfaa;background:#f0f7f0;cursor:default}.current-service span{color:#596e60;text-decoration:none}
+
+/* STAGE18: original photo pairs and mobile footer telephone */
+.footer .footer-info {display:inline;line-height:1.75;word-break:keep-all;overflow-wrap:break-word}
+.footer .footer-phone {display:inline-block;white-space:nowrap;word-break:normal;margin-left:10px;font-weight:800;color:#12533e;text-decoration:none}
+.case-expander {margin:22px auto 0}
+.case-expander summary {cursor:pointer;list-style:none;border:1px solid #b4d2c1;background:#eff5ea;color:#17533e;padding:16px 18px;border-radius:16px;font-weight:850;text-align:center;word-break:keep-all}
+.case-expander summary::-webkit-details-marker{display:none}
+.case-expander summary span{display:inline-block;margin-left:8px;transition:transform .2s}
+.case-expander[open] summary span{transform:rotate(180deg)}
+.case-expander .extra-cases{margin-top:18px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.case-card{min-width:0}
+.case-card .photo-pair img{width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;background:#f4f7f4}
+.case-card .photo-pair figure{min-width:0}
+.case-card p{line-height:1.7;word-break:keep-all;overflow-wrap:break-word}
+.service-before-after .photo-spotlight{grid-template-columns:minmax(0,750px);justify-content:center}
+.service-before-after .photo-pair img{height:auto;aspect-ratio:3/4;object-fit:contain}
+@media(max-width:640px){
+ .footer .footer-info{display:block}
+ .footer .footer-phone{display:block;width:max-content;max-width:100%;margin:5px auto 0;font-size:16px;letter-spacing:.015em}
+ .case-expander .extra-cases{grid-template-columns:minmax(0,1fr)}
+ .case-expander summary{padding:15px 10px;font-size:14px}
+ .service-before-after .photo-pair{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* STAGE19: show all 10 before/after cards on main without expander */
+#photos .showcase-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+#photos .showcase{padding:22px}
+#photos .showcase>p{min-height:0;line-height:1.7;word-break:keep-all;overflow-wrap:break-word}
+#photos .case-card .photo-pair img{width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;background:#f4f7f4}
+#photos .minor-link{margin-top:14px}
+#photos .showcase h3{font-size:22px}
+@media(max-width:850px){#photos .showcase-grid{grid-template-columns:minmax(0,1fr)}#photos .showcase{max-width:700px;width:100%;margin:0 auto}}
+
+/* STAGE20: deliberate Korean copy rhythms across PC/mobile */
+.intro-text{max-width:840px;margin:20px auto 26px;word-break:keep-all;overflow-wrap:break-word;line-height:1.8;text-align:center}
+.intro-text .copy-sentence{display:block;text-wrap:balance;word-break:keep-all;overflow-wrap:break-word;margin:0 auto 5px}
+.intro-text .copy-phrase{white-space:nowrap}
+.h1,.h2,.h3,.section-head h2,.detail-card h3{word-break:keep-all;overflow-wrap:break-word;text-wrap:balance}
+@media(max-width:760px){.intro-text{max-width:36ch;font-size:15px;line-height:1.78;padding:0 4px}.intro-text .copy-sentence{margin-bottom:9px}}
+@media(max-width:350px){.intro-text{font-size:14.5px;line-height:1.8}}
+
+
+/* STAGE21: shared semantic Korean typography (apply to all page types at generation time) */
+html{scroll-padding-top:clamp(105px,12vw,150px)}
+body{word-break:keep-all;overflow-wrap:break-word;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+:where(main,section,article,.panel,.service,.showcase,.detail-card,.nav-card,.info,.faq,.footer,.footer-cta){min-width:0}
+:where(p,li,blockquote,figcaption,.lead,.intro-text,.section-lead,.hub-copy,.nav-hint,.note,.footer-info,.minor-link,.tag,.nav-card span,.mini-card span){
+  word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty;line-break:strict
+}
+:where(h1,h2,h3,h4,.h1,.h2,.h3,.service b,.nav-card b,.method h3,.strength h3){
+  word-break:keep-all;overflow-wrap:break-word;text-wrap:balance;line-break:strict
+}
+/* Lock short work terms, not whole sentences: line wraps still adapt per width. */
+.semantic-phrase,.copy-phrase{white-space:nowrap;word-break:normal}
+/* Keep reading lines comfortable without enforcing desktop-specific hard <br> elements. */
+.section-head>p{max-width:62ch;margin-left:auto;margin-right:auto;line-height:1.78}
+.section-lead{max-width:60ch;margin-left:auto;margin-right:auto;line-height:1.8}
+.detail-card p,.strength p,.qa p,.faq-wrap p,.method p,.site-grid p,.faq-grid p,.info p{max-width:48ch;margin-left:auto;margin-right:auto;line-height:1.8}
+#photos .showcase>p{max-width:42ch;margin-left:auto;margin-right:auto;margin-bottom:17px}
+#services .service p{max-width:44ch;margin-left:auto;margin-right:auto}
+.hub-copy,.intro-text{max-width:min(840px,100%);margin-left:auto;margin-right:auto}
+.nav-hint{max-width:66ch;margin-left:auto;margin-right:auto}
+.footer-cta p{max-width:60ch;margin-left:auto;margin-right:auto;line-height:1.8}
+.footer .footer-phone,.phone{white-space:nowrap;word-break:normal}
+/* No fixed-height copy: enlarged text or different fonts must not clip. */
+.showcase>p,.detail-card p,.nav-card,.qa p,.strength p{height:auto;max-height:none}
+/* Adapt typography and image layout at real device sizes. */
+@media (max-width:850px){
+ .section-head{max-width:min(100%,660px)}
+ .section-head>p,.section-lead{max-width:48ch}
+ .detail-card p,.strength p,.qa p,.faq-wrap p{max-width:46ch}
+}
+@media (max-width:640px){
+ body{line-height:1.72}
+ .container{width:min(100% - 24px,1150px)}
+ .section-head>p,.section-lead,.detail-card p,.strength p,.qa p,.faq p,
+ .hub-copy,.nav-hint,.case-card>p{max-width:34ch;margin-left:auto;margin-right:auto}
+ .h1,h1{line-height:1.33}
+ .h2,h2{line-height:1.38}
+ .intro-text{max-width:36ch;line-height:1.82}
+ .intro-text .copy-sentence{margin-bottom:10px}
+ .section-head>p,.detail-card p,.faq p,.case-card>p{line-height:1.78}
+ .footer .footer-info{display:block;margin:0 auto;max-width:35ch}
+ .footer .footer-phone{display:block;width:max-content;max-width:100%;margin:7px auto 0}
+}
+@media(max-width:360px){
+ .section-head>p,.section-lead,.detail-card p,.faq p,.nav-hint{max-width:32ch}
+ .detail-card,.method{padding:18px 14px}
+ .footer .footer-phone{font-size:15px}
+}
+
+/* STAGE22: external blog CTA remains readable on narrow phones */
+.landing-service-guide{margin:16px auto 0;line-height:1.8;font-weight:750;word-break:keep-all;overflow-wrap:break-word}
+.landing-service-guide a{display:inline-block;color:var(--forest);border-bottom:1px solid currentColor;padding-bottom:2px;text-underline-offset:3px}
+.sticky-actions .button{min-width:0;white-space:nowrap;font-size:clamp(12px,3.45vw,15px);padding:12px 8px}
+@media(max-width:380px){.buttons .button{min-width:0;word-break:keep-all;overflow-wrap:break-word}}
+
+/* STAGE23: root fix - style only the card's immediate media/content wrapper,
+   never inline semantic words inside body copy. */
+#services .cards .service p span,
+#services .cards .service .semantic-phrase,
+#services .cards .service .copy-phrase{
+  display:inline; padding:0; margin:0; background:transparent; border:0;
+  white-space:normal; font:inherit; color:inherit;
+}
+#services .cards .service p{
+  width:100%; max-width:39ch; margin:12px auto 14px;
+  font-size:15px; line-height:1.82;
+  word-break:keep-all; overflow-wrap:break-word;
+  text-wrap:balance; text-align:center;
+}
+#services .cards .service small{margin:0 auto;max-width:100%;line-height:1.55}
+.section-lead {max-width:52ch;line-height:1.82;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+@media (max-width:760px){
+  #services .cards .service p{max-width:38ch;font-size:15px;line-height:1.8;padding:0 6px}
+  .section-lead{max-width:38ch;padding:0 4px}
+}
+@media (max-width:370px){
+  #services .cards .service p{font-size:14px;max-width:34ch;padding:0 4px}
+  .section-lead{max-width:34ch}
+}
+
+
+/* STAGE24 — shared geometry for photo cards and consistent word flow.
+   This rule is intentionally global across the main/10 hubs/10 landing samples;
+   preserve it in the production generator's common stylesheet after approval. */
+.showcase-grid{align-items:stretch}
+.showcase-grid > .case-card{box-sizing:border-box;min-width:0;align-self:stretch}
+.showcase-grid > .case-card > h3{word-break:keep-all;overflow-wrap:break-word;text-wrap:balance;line-height:1.4}
+.showcase-grid > .case-card > p{word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty;line-height:1.7}
+.showcase-grid > .case-card .photo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;align-items:stretch}
+.showcase-grid > .case-card .photo-pair figure{display:flex;flex-direction:column;min-width:0;margin:0}
+.showcase-grid > .case-card .photo-pair img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;object-position:center;background:#f1f5ef}
+.showcase-grid > .case-card .photo-pair figcaption{margin-top:auto}
+/* Older browser fallback: reserve two intro lines, stretch cards and put links at bottom. */
+#photos .showcase-grid{align-items:stretch;grid-auto-flow:row}
+#photos .showcase-grid > .case-card{display:flex;flex-direction:column;height:100%;align-items:stretch}
+#photos .showcase-grid > .case-card > h3{min-height:1.4em;margin-bottom:8px}
+#photos .showcase-grid > .case-card > p{min-height:3.4em;margin-top:0;margin-bottom:16px;line-height:1.7}
+#photos .showcase-grid > .case-card > .photo-pair{flex:0 0 auto}
+#photos .showcase-grid > .case-card > .minor-link{display:inline-block;align-self:center;margin-top:auto;padding-top:16px;line-height:1.5}
+/* Modern browsers: row subgrid synchronizes heading, introduction, images and CTA across each pair.
+   No fixed-height clipping, even if font size grows or one description wraps more. */
+@supports (grid-template-rows: subgrid){
+  #photos .showcase-grid{row-gap:0}
+  #photos .showcase-grid > .case-card{display:grid;grid-row:span 4;grid-template-rows:subgrid;gap:0;margin-bottom:20px}
+  #photos .showcase-grid > .case-card > h3{margin-top:0;margin-bottom:8px;min-height:0;align-self:center}
+  #photos .showcase-grid > .case-card > p{min-height:0;margin:0 0 16px;align-self:center}
+  #photos .showcase-grid > .case-card > .photo-pair{margin:0;align-self:stretch}
+  #photos .showcase-grid > .case-card > .minor-link{margin:0;align-self:center;justify-self:center;padding:17px 0 0}
+}
+/* Service selection cards also have a fixed image region and bottom-aligned detail navigation. */
+#services .cards .service{height:100%;align-self:stretch}
+#services .cards .service > span{display:flex;flex-direction:column;align-items:center;flex:1;min-height:0}
+#services .cards .service small{margin-top:auto}
+/* The consultation copy contains two deliberate semantic lines: never break at an arbitrary word. */
+.footer-cta .cta-copy{max-width:64ch;margin:16px auto 20px;line-height:1.85;text-align:center;word-break:keep-all;overflow-wrap:break-word}
+.footer-cta .cta-line{display:block;width:100%;text-wrap:balance}
+.footer-cta .cta-extra{margin-top:10px}
+@media(max-width:850px){
+  #photos .showcase-grid{grid-template-columns:minmax(0,1fr)}
+  #photos .showcase-grid > .case-card{width:100%;max-width:700px;}
+  #photos .showcase-grid > .case-card > p{min-height:0}
+}
+@media(max-width:640px){
+  .footer-cta .cta-copy{font-size:14px;line-height:1.9;max-width:34ch}
+  #photos .showcase-grid > .case-card{padding:17px}
+  #photos .showcase-grid > .case-card > h3{font-size:19px}
+}
+
+
+/* STAGE25 — shared readable card geometry across main, ten hubs, sample landings.
+ * Keep short product phrases naturally inline (never display:block on inline spans).
+ * Layout is independent of one-line/two-line heading, and descriptions stay center aligned.
+ */
+:root{--s25-body-size:15.5px;--s25-heading-size:21px;--s25-leading:1.8}
+#photos .showcase-grid,
+.detail-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch;column-gap:18px;row-gap:18px}
+#photos .showcase-grid{row-gap:18px}
+/* Equal-height photo showcase cards without clipping the text. */
+#photos .showcase-grid > .case-card{
+ display:flex;flex-direction:column;align-items:stretch;box-sizing:border-box;
+ height:100%;min-width:0;margin:0;padding:22px;
+ text-align:center
+}
+#photos .case-card > h3{
+ display:flex;align-items:center;justify-content:center;
+ min-height:2.75em;margin:0 0 10px;
+ font-size:var(--s25-heading-size);line-height:1.35;
+ text-align:center;word-break:keep-all;text-wrap:balance
+}
+#photos .case-card > p.case-intro{
+ display:flex;align-items:center;justify-content:center;
+ min-height:3.8em;max-width:44ch;width:100%;
+ margin:0 auto 14px;padding:0 5px;
+ color:var(--muted);font-size:var(--s25-body-size);line-height:var(--s25-leading);
+ text-align:center;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty
+}
+#photos .case-card > .photo-pair{margin:0;flex:0 0 auto;align-self:stretch}
+#photos .case-card .photo-pair img{width:100%;height:auto;aspect-ratio:3/4;object-fit:contain}
+#photos .case-card > a.minor-link{
+ align-self:center;margin:auto auto 0;padding:16px 0 0;
+ font-size:15px;font-weight:800;line-height:1.65;text-align:center;
+ word-break:keep-all;overflow-wrap:break-word;text-wrap:balance
+}
+/* Disable older subgrid recipe for this section. The heading and intro are now equal-height
+   flex sections, and the photos begin together without relying on browser subgrid support. */
+@supports (grid-template-rows:subgrid){
+ #photos .showcase-grid > .case-card{
+  display:flex;grid-row:auto;grid-template-rows:none;gap:0;margin:0;
+ }
+ #photos .case-card > h3{min-height:2.75em;margin-bottom:10px}
+ #photos .case-card > p.case-intro{min-height:3.8em;margin:0 auto 14px}
+ #photos .case-card > a.minor-link{margin:auto auto 0;padding-top:16px}
+}
+/* 2x2 in all service hubs / regional landing detail guides: four informative cards each. */
+.detail-grid > .detail-card{
+ display:flex;flex-direction:column;justify-content:flex-start;align-items:center;
+ box-sizing:border-box;min-width:0;width:100%;height:100%;
+ padding:26px 23px;text-align:center
+}
+.detail-grid > .detail-card > h3{
+ display:flex;justify-content:center;align-items:center;
+ min-height:2.75em;width:100%;margin:0 0 10px;
+ font-size:var(--s25-heading-size);line-height:1.38;font-weight:800;
+ text-align:center;word-break:keep-all;overflow-wrap:break-word;text-wrap:balance
+}
+.detail-grid > .detail-card > p{
+ margin:auto auto;max-width:38ch;width:100%;
+ font-size:var(--s25-body-size);line-height:var(--s25-leading);font-weight:400;
+ text-align:center;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty
+}
+/* Main service summary remains a readable, uniformly sized centered paragraph. */
+#services .cards .service .service-intro{
+ display:block;width:100%;max-width:39ch;margin:12px auto 14px;
+ padding:0 5px;color:var(--muted);font-size:15px;line-height:1.82;
+ text-align:center;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty
+}
+/* Generic body copy in all hubs and region pages: avoid accidental left alignment. */
+.section-lead,.intro-text,.section-head > p,.detail-grid > .detail-card > p,
+#photos .case-card > p,.service-before-after .case-card > p{
+ text-align:center;word-break:keep-all;overflow-wrap:break-word;
+}
+/* At small widths cards are stacked, never side-by-side too tightly. */
+@media(max-width:850px){
+ #photos .showcase-grid,.detail-grid{grid-template-columns:minmax(0,1fr)}
+ #photos .case-card > h3,.detail-grid > .detail-card > h3{min-height:auto}
+ #photos .case-card > p.case-intro{min-height:auto;margin-bottom:16px}
+ #photos .showcase-grid > .case-card{max-width:700px;margin:0 auto}
+ .detail-grid > .detail-card{max-width:720px;margin:0 auto}
+}
+@media(max-width:640px){
+ :root{--s25-body-size:15px;--s25-heading-size:20px}
+ #photos .showcase-grid > .case-card{padding:17px}
+ .detail-grid > .detail-card{padding:22px 17px}
+ #photos .case-card > h3,.detail-grid > .detail-card > h3{font-size:20px}
+ #photos .case-card > p.case-intro,.detail-grid > .detail-card > p{max-width:34ch}
+}
+@media(max-width:359px){
+ :root{--s25-body-size:14.5px;--s25-heading-size:19px}
+ #photos .case-card > p.case-intro,.detail-grid > .detail-card > p{max-width:32ch}
+ #photos .case-card > a.minor-link{font-size:14px}
+}
+
+/* STAGE25 QA correction: all descriptions start at exactly the same vertical position. */
+.detail-grid > .detail-card > p{margin:0 auto;align-self:center;flex:0 0 auto}
+
+/* STAGE26 — scope sentence boundaries to entire semantic paragraphs, without altering
+   actual inline phrases. Separate complete thoughts; never force breaks inside a noun phrase. */
+#services .cards .service p span.semantic-line { display:block; margin-inline:auto; }
+.semantic-line { display:block; max-width:100%; margin-inline:auto; text-align:inherit;
+  word-break:keep-all; overflow-wrap:break-word; text-wrap:pretty; }
+.semantic-line + .semantic-line { margin-top:.2em; }
+.section-head > p .semantic-line { line-height:1.8; }
+.section-head > p, .section-lead, .lead, .intro-text, .service-intro,
+#services .service-intro, .case-intro, .detail-card p { text-align:center; }
+/* Place meaning-based lines on separate rows on every viewport, letting their own
+   content wrap naturally on narrow screens. */
+@media(max-width:640px) {
+  .semantic-line + .semantic-line { margin-top:.3em; }
+  .section-head > p { max-width:34ch; margin-inline:auto; }
+  .section-lead { max-width:36ch; margin-inline:auto; }
+}
+
+/* FINAL common cards, readable text, and regional navigation */
+.extra-guide{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:stretch}
+.extra-guide .info{min-width:0;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:clamp(20px,2.3vw,27px)}
+.extra-guide .info h3{font-size:clamp(18px,2vw,21px);line-height:1.45;word-break:keep-all;margin:0 0 12px}
+.extra-guide .info p{font-size:clamp(14px,1.4vw,16px);line-height:1.85;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty;margin:0}
+.region-index{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;max-height:560px;overflow-y:auto;padding:10px;border:1px solid #dde6dc;border-radius:18px}
+.region-index a{display:block;text-align:center;border:1px solid #dde6dc;border-radius:10px;background:#f5f8f4;padding:9px;color:#195b42;font-weight:700;word-break:keep-all}
+.region-index a:hover,.region-index a:focus-visible{background:#e3eee4}
+.region-directory-cta{text-align:center;padding:10px}
+.footer-directory{display:block;text-align:center;margin:12px auto;color:#17543e;text-decoration:underline}
+.section-head p{max-width:66ch;margin-left:auto;margin-right:auto;text-align:center;line-height:1.8;word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+@media(max-width:760px){.extra-guide{grid-template-columns:minmax(0,1fr)}.region-index{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:350px){.region-index{grid-template-columns:minmax(0,1fr)}}
+
+/* JIPSANAM REGION LINKS UPGRADE */
+.service-region-section .region-nav{max-width:1040px;margin:28px auto 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;text-align:left;align-items:start}
+.region-group{border:1px solid #dae8db;border-radius:14px;background:#fffdf8;min-width:0;overflow:hidden}
+.region-group summary{cursor:pointer;padding:15px 18px;color:#26513b;font-weight:700;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.region-group summary small{color:#678070;white-space:nowrap}
+.region-links{padding:12px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;border-top:1px solid #e5ece4}
+.region-links a{padding:9px 10px;border-radius:8px;background:#f5f8f3;color:#245039;text-decoration:none;line-height:1.6;overflow-wrap:anywhere;font-size:13px}
+.region-links a:hover,.region-links a:focus-visible{text-decoration:underline;background:#e6f0e5}
+.region-bottom-note{text-align:center;margin:22px auto 10px}
+.service-pick{text-align:center;margin-bottom:24px}
+.service-pick-links{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:18px}
+.service-pick-links a{padding:12px 8px;border:1px solid #dce8db;border-radius:10px;background:#f5f8f2;color:#28513a;text-decoration:none;font-size:14px;overflow-wrap:anywhere}
+.service-pick-links a:hover{text-decoration:underline}
+@media(max-width:760px){.service-region-section .region-nav{grid-template-columns:1fr}.region-links{grid-template-columns:1fr}.service-pick-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:350px){.service-pick-links{grid-template-columns:1fr}}
